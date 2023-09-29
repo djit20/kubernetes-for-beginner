@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name:
+  labels:
+     app:
+     type:
+spec:
+  template:
+   metadata:
+    name:
+    labels:
+      app:
+      type:
+   spec:
+    containers:
+     - name:
+       image:
+selector:
+    matchLabels:
+    type:     
